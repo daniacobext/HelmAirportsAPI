@@ -9,6 +9,6 @@ entries:
     name: airports-api
     type: application
     urls:
-    - charts/airports-api-0.1.0.tgz
+    - airports-api-0.1.0.tgz
     version: 0.1.0
 generated: "2023-07-12T15:41:19.3134088+03:00"
