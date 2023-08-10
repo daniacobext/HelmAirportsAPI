@@ -6,7 +6,7 @@ entries:
     created: "2023-08-10T10:10:35.6256822+03:00"
     description: A Helm chart for Kubernetes
     digest: 1205bcbd97d92ddace3c0fc56dab6221ad686af0d78181ac37fb7b9d21531117
-    name: airports-api
+    name: helm-airports-api
     type: application
     urls:
     - airports-api-0.1.0.tgz
