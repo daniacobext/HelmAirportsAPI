@@ -12,8 +12,12 @@ secret:
   keyUsername: username
   keyPassword: password
 
+secretSiemens:
+  name: regsiemens
+  configJson: eyJhdXRocyI6eyJjci5zaWVtZW5zLmNvbSI6eyJ1c2VybmFtZSI6ImNyLnNpZW1lbnMuY29tIiwicGFzc3dvcmQiOiJDU0MtWXhDRkJQX1J5UC1WRndTaFNTSHAiLCJlbWFpbCI6ImRhbi5pYWNvYi5leHRAc2llbWVucy5jb20iLCJhdXRoIjoiWTNJdWMybGxiV1Z1Y3k1amIyMDZRMU5ETFZsNFEwWkNVRjlTZVZBdFZrWjNVMmhUVTBodyJ9fX0=
+
 deployment:
-  image: dina1993/airports-api
+  image: cr.siemens.com/proiect/kafkaairportsapi
   livenessPath: /actuator/health/liveness
   readinessPath: /actuator/health/readiness
   env:
