@@ -20,14 +20,14 @@ spec:
             httpGet:
               path: {{ .Values.deployment.livenessPath }}
               port: {{ .Values.port }}
-            initialDelaySeconds: 20
-            periodSeconds: 20
+            initialDelaySeconds: 3
+            periodSeconds: 3
           readinessProbe:
             httpGet:
               path: {{ .Values.deployment.readinessPath }}
               port: {{ .Values.port }}
-            initialDelaySeconds: 20
-            periodSeconds: 20
+            initialDelaySeconds: 3
+            periodSeconds: 3
           ports:
             - containerPort: {{ .Values.port}}
           env:

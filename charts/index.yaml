@@ -3,12 +3,12 @@ entries:
   airports-api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-10T11:22:18.5758467+03:00"
+    created: "2023-08-10T11:59:48.1049238+03:00"
     description: A Helm chart for Kubernetes
-    digest: e6cfc1ebf596a99363473e6b8289c3547892636623af65455b45bf1ad7c1808b
+    digest: 6ce6aadb86fac2f86bc769f4c305d58131ddb70313a9ed7c5ef030fad0bbe3f2
     name: airports-api
     type: application
     urls:
     - airports-api-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-10T11:22:18.5748394+03:00"
+generated: "2023-08-10T11:59:48.1049238+03:00"
